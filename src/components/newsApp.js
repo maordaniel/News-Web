@@ -5,7 +5,7 @@ function NewsApp(props) {
     return(
         <div className="container" style={{ display:'flex',overflow: "auto",direction:'rtl'}}>
             {props.articles.map(article =>
-                <Card style={{ width: '18rem',minWidth: '200px',textAlign:'right'}} onClick={() => props.getarticle(article)}
+                <Card style={{ width: '18rem',minWidth: '200px',textAlign:'right'}} onClick={() => props.getArticle(article)}
                     bg='dark'
                     text='white'
                     border="light"
