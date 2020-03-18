@@ -39,7 +39,7 @@ function HomePage(props) {
                 <p style={{color:'red', fontSize:'20px'}}>
                     {!props.auth.isLogged ? "Please log in to continue to the awesomeness."
                         :
-                        "today's news :"}</p>
+                        "Today's News :"}</p>
             </div>
             {props.auth.isLogged ?
                 <div>
